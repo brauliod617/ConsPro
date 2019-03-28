@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ConsPro.jnlp">
+  <information>
+    <title>ConsPro</title>
+    <vendor>Unknown</vendor>
+    <description>ConsPro</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ConsPro.jar" size="83019" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Default.Main"  name="ConsPro" />
+  <update check="background"/>
+</jnlp>
